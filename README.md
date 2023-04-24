@@ -6,5 +6,12 @@ malloc()<br>
 calloc()<br>
 free()<br>
 realloc()<br>
+<br>
 <b><ins>C malloc() method</b></ins><br>
-The “malloc” or “memory allocation” method in C is used to dynamically allocate a single large block of memory with the specified size. It returns a pointer of type void which can be cast into a pointer of any form. It doesn’t Initialize memory at execution time so that it has initialized each block with the default garbage value initially. 
+The “malloc” or “memory allocation” method in C is used to dynamically allocate a single large block of memory with the specified size. It returns a pointer of type void which can be cast into a pointer of any form. It doesn’t Initialize memory at execution time so that it has initialized each block with the default garbage value initially. <br>
+<br>
+<b> Syntax: </b><br>
+ptr = (cast-type*) malloc(byte-size)<br>
+<br>
+![image](https://user-images.githubusercontent.com/125802204/234002054-8c8e9269-929b-467b-a291-15f08414a7a0.png)
+
